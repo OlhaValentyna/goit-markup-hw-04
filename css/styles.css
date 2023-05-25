@@ -121,6 +121,8 @@ body {
 
 }
 
+
+
 .hero-titel {
     font-weight: 700;
     font-size: 56px;
@@ -346,6 +348,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+
 }
 
 /* Main page naxt section */
