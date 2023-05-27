@@ -553,16 +553,28 @@ img {
     gap: 16px;
 }
 
-.footer-socials {
-    display: inline-block;
-    background-color: #404BBF;
-    border-radius: 50%;
-    padding: 8px;
+.footer-social-point {
     width: 40px;
     height: 40px;
+}
+
+.footer-socials {
+    display: inline-block;
+    border-radius: 50%;
+    padding: 8px;
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer-socials:hover,
 .footer-socials:focus {
     background-color: #31D0AA;
+}
+
+.icon-svg-footer {
+    fill: #f4f4fd;
 }
