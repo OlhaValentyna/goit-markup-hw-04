@@ -297,6 +297,8 @@ body {
     color: #FFFFFF;
     background-color: #404BBF;
     border: 1px solid transparent;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
 }
 
 .btn-portfolio {
@@ -464,8 +466,12 @@ ul {
     row-gap: 48px;
     column-gap: 24px;
     padding: 0;
+}
 
-
+.card-portfolio:hover,
+.card-portfolio:focus {
+    border: 1px solid #F4F4FD;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-links>.portfolio-link {
@@ -487,4 +493,67 @@ img {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
+}
+
+.customers-section {
+    padding: 120px 0;
+}
+
+.customers-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.customer {
+    width: calc((100%-120px)/6);
+    height: 88px;
+}
+
+.customers-link {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    display: flex;
+    padding: 16px 32px;
+}
+
+.footer-content {
+    display: flex;
+    align-items: baseline;
+}
+
+.titel-socials {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.footer-right {
+    margin-right: 120px;
+}
+
+.footer-social-list {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.footer-socials {
+    display: inline-block;
+    background-color: #404BBF;
+    border-radius: 50%;
+    padding: 8px;
+    width: 40px;
+    height: 40px;
+}
+
+.footer-socials:hover,
+.footer-socials:focus {
+    background-color: #31D0AA;
 }
