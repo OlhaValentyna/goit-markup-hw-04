@@ -118,6 +118,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    max-width: 1440px;
 
 }
 
@@ -160,6 +161,10 @@ body {
 
 /* Features  */
 .icon-background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
     background: #F4F4FD;
     padding: 24px 100px 24px 100px;
     margin-bottom: 8px;
@@ -468,8 +473,12 @@ ul {
     padding: 0;
 }
 
-.card-portfolio:hover,
-.card-portfolio:focus {
+.card-link {
+    display: block;
+}
+
+.card-link:hover,
+.card-link:focus {
     border: 1px solid #F4F4FD;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
