@@ -119,7 +119,7 @@ body {
     background-position: center;
     background-size: cover;
     max-width: 1440px;
-
+    margin: 0 auto;
 }
 
 
@@ -399,6 +399,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+
 
 }
 
