@@ -232,12 +232,16 @@ body {
 }
 
 .icon-social-link {
-    display: inline-block;
-    background-color: #404BBF;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    background-color: #4d5ae5;
     border-radius: 50%;
     padding: 12px;
-    width: 40px;
-    height: 40px;
+    width: 100%;
+    height: 100%;
+
 
 }
 
@@ -253,6 +257,10 @@ body {
 
 }
 
+.social-icon {
+    width: 40px;
+    height: 40px;
+}
 
 /* footer */
 .footer {
@@ -526,7 +534,20 @@ img {
     border: 1px solid #8E8F99;
     border-radius: 4px;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #8E8F99;
     padding: 16px 32px;
+}
+
+.customers-link:hover,
+.customers-link:focus {
+    border-color: #404bbf;
+    color: #404bbf;
+}
+
+.customer-icon {
+    fill: currentColor;
 }
 
 .footer-content {
