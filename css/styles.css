@@ -257,6 +257,10 @@ body {
 
 }
 
+.icon-social {
+    fill: #f4f4fd;
+}
+
 .social-icon {
     width: 40px;
     height: 40px;
@@ -523,7 +527,7 @@ img {
 }
 
 .customer {
-    width: calc((100%-120px)/6);
+    width: calc((100% - 120px) / 6);
     height: 88px;
 }
 
